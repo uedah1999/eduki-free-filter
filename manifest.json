@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Eduki Free Materials Only",
+  "version": "1.0",
+  "description": "Hides paid materials on Eduki search results.",
+  "content_scripts": [
+    {
+      "matches": ["https://eduki.com/de/suchergebniss*"],
+      "js": ["content.js"]
+    }
+  ]
+}
+  
